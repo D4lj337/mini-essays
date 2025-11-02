@@ -6,7 +6,7 @@
 ;; Version: 1.0
 ;; Package-Requires: ((emacs "27.1"))
 ;; Keywords: writing, org, productivity
-;; URL: https://github.com/D4lj337/Mini-essays
+;; URL: https://github.com/D4lj337/mini-essays
 ;; License: GPL-3.0-or-later
 
 ;; This file is NOT part of GNU Emacs.
@@ -48,11 +48,6 @@
 ;;; Code:
 
 (require 'org)
-;; Do not require `autoinsert' at load time; it's set up lazily in
-;; `mini-essays-setup-auto-insert' and with-eval-after-load below.
-;; Declare autoinsert variables so the byte-compiler doesn't warn when
-;; `autoinsert' hasn't been loaded yet.  The real values come from the
-;; `autoinsert' package when it is required.
 (defvar auto-insert-query nil "Non-nil means query before auto-inserting templates.")
 (defvar auto-insert-alist nil "Alist mapping file patterns to auto-insert templates (from autoinsert).")
 
