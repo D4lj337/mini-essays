@@ -11,6 +11,8 @@
 — Texas A&M University Writing Center
 #+END_QUOTE
 
+[[file:mini-essays.png]]
+
 ** Why Mini Essays?
 
 - *Focused thinking*: Constraints force clarity and precision
